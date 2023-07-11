@@ -1,0 +1,184 @@
+@media (max-width: 1500px) {
+  .content__wrap {
+    padding: 0;
+  }
+
+}
+@media (max-width: 1200px) {
+  .content__wrap {
+    padding: 50px 100px 0 100px;
+  }
+
+  .content__item {
+    width: 49%;
+    margin-bottom: 15px;
+  }
+
+  .content__list {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content__wrap {
+    padding: 50px 50px 0 50px;
+  }
+
+  .events__wrap {
+    padding: 75px 80px 35px 80px;
+  }
+
+  .btn__text {
+    display: none;
+  }
+
+  .burger svg {
+    width: 31px;
+    height: 24px;
+  }
+
+  .h-btn {
+    padding: 12px 18px;
+  }
+
+  .btn__svg svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 600px;
+    padding: 0 33px;
+  }
+
+  .btn {
+    padding: 27px 80px;
+    font-size: 28px;
+  }
+
+  .burger svg {
+    width: 31px;
+    height: 24px;
+  }
+
+  .h-btn {
+    padding: 12px 18px;
+  }
+
+  .btn__svg svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tel {
+    font-size: 24px;
+  }
+
+  .hero {
+    position: relative;
+    max-height: 1200px;
+    padding-top: 215px;
+    padding-bottom: 695px;
+    background-image: url(../img/bg-hero-mobile.png);
+  }
+
+  .hero__text {
+    font-size: 28px;
+  }
+
+  .content__wrap {
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  .content__video {
+    margin-bottom: 40px;
+    height: 269px;
+    background-image: url(../img/video-content.png);
+    border: 1px solid var(--white-color);
+  }
+
+  .content__btn {
+    margin-bottom: 136px;
+  }
+
+  .content__list {
+    margin-bottom: 60px;
+    padding: 0 70px;
+  }
+
+  .content__item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .card {
+    height: 520px;
+    padding-top: 185px;
+  }
+
+  .card__title {
+    margin-bottom: 40px;
+    font-size: 34px;
+  }
+
+  .card__text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .content__item:not(:last-child) {
+    margin-bottom: 150px;
+  }
+
+  .content__box {
+    margin-bottom: 75px;
+  }
+
+  .events__item {
+    margin-bottom: 40px;
+  }
+
+  .events__wrap {
+    padding: 55px 0 35px 0;
+  }
+
+  .events__title {
+    margin-bottom: 25px;
+  }
+
+  .boxEvent {
+    padding-bottom: 40px;
+  }
+
+  .boxEvent__wrap {
+    margin-bottom: 40px;
+  }
+
+
+  .boxEvent__title {
+    font-size: 28px;
+  }
+
+  .boxEvent__left {
+    width: 100%;
+  }
+
+  .boxEvent__right {
+   display: none;
+  }
+
+  .boxEvent__box {
+    padding: 0 18px;
+    width: 100%;
+  }
+
+  .boxEvent__link {
+    font-size: 24px;
+    border-bottom: 1px solid var(--white-color);
+  }
+}
+
+
