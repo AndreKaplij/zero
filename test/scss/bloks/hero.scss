@@ -1,0 +1,47 @@
+@import '../common/variables.scss';
+
+.hero {
+  position: relative;
+  max-height: 1200px;
+  padding-top: 311px;
+  padding-bottom: 620px;
+  background-image: url(../img/bg-hero2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  @include breakpoint (md){
+    padding-top: 215px;
+    padding-bottom: 695px;
+    background-image: url(../img/bg-hero-mobile.png);
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--black-color);
+    text-align: center;
+  }
+
+  &__text {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--black-color);
+    @include breakpoint (md){
+      font-size: 28px;
+    }
+  }
+
+  &__line {
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 250px;
+    background-color: var(--white-color);
+    bottom: 0;
+    left: 50%;
+    z-index: 10;
+  }
+}

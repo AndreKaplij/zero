@@ -1,0 +1,17 @@
+.link {
+  color: var(--white-color);
+  transition: color 0.3s ease-in-out;
+
+&:hover {
+  color: var(--hover-color);
+}
+
+&:active {
+  color: var(--activ-color);
+}
+
+&:focus {
+  color: var(--hover-color);
+  outline: none;
+}
+}

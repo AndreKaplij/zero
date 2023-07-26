@@ -1,0 +1,76 @@
+@import '../common/variables.scss';
+
+.header {
+  background-color: var(--dark-color);
+  padding: 35px 0 30px 0;
+
+  &__wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  &__burger {
+  cursor: pointer;
+  width: 51px;
+  height: 34px;
+  fill: var(--white-color);
+  @include breakpoint (lg){
+    width: 31px;
+    height: 24px;
+  }
+  }
+
+  &__burger:hover {
+  fill: var(--hover-color);
+  }
+
+  &__link {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  font-weight: 400;
+  @include breakpoint (md){
+    font-size: 24px;
+  }
+  }
+
+  &__btn {
+  padding: 13px 16px 13px 25px;
+  @include breakpoint (lg){
+    padding: 12px 18px;
+  }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $white-color: #fff;
+// $gold-color: #AD8A54;
+// $gray-color: #D9D9D9;
+// $darkGray-color: #626262;
+// $dark-color: #090A0E;
+// $black-color: #000;
+// $activ-color: #A47312;
+// $hover-color: #F0BF5F;
